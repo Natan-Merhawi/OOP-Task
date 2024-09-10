@@ -1,0 +1,11 @@
+                   Implicit and Explicit Conversion
+
+>Implicit Conversion (also called automatic type conversion) happens
+ when the compiler automatically converts one data type to another.
+  This occurs when there is no risk of data loss, like converting an 
+  "int" to a "double" because a "double" can hold more information.
+
+>Explicit Conversion (also called type casting) is when the programmer
+manually converts one data type to another. This is done when there is
+a potential for data loss, like converting a "double" to an "int". 
+You must use a cast operator to do this, as it’s not automatic.
